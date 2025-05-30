@@ -1,6 +1,13 @@
-rm(list=ls())
+# The code works if it is run on the parent folder contaning the following folders
+# - intermediate_data
+# - R_functions
+# - script
+# - figures
 
-setwd('/mnt/raid/RU1/Analysis_scripts_code/EEG_manypipelines/R_analysis/')
+# intermediate_data and figures must be downloaded/created separately
+
+
+rm(list=ls())
 
 curr_import_folder = 'original_data/Aim2b/theta/'
 curr_export_folder = 'intermediate_data/'
