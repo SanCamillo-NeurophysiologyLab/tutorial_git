@@ -6,7 +6,6 @@
 
 # intermediate_data and figures must be downloaded/created separately
 
-
 rm(list=ls())
 
 curr_import_folder = 'original_data/Aim2b/theta/'
@@ -15,8 +14,8 @@ dir.create(curr_export_folder)
 
 all_subj = dir(curr_import_folder)
 
-start_time = -3000
-end_time = 3000
+start_time = -2500
+end_time = 2500
 
 library(erpR)
 library(stringr)
